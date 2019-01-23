@@ -1,0 +1,9 @@
+[submodule "coconut"]
+	path = coconut
+	url = https://github.com/kaqu/coconut.git
+[submodule "swift-snapshot-testing"]
+	path = swift-snapshot-testing
+	url = https://github.com/pointfreeco/swift-snapshot-testing.git
+[submodule "futura"]
+	path = futura
+	url = https://github.com/miquido/futura.git
