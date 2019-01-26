@@ -9,20 +9,20 @@
 import Coconut
 import Foundation
 
-internal final class DataFlowController {
+public final class DataFlowController {
     internal var initialLoadFuture: Future<Void> { return initialLoadPromise.future }
     internal let baseCurrencySymbol: Emitter<String> = .init()
     internal let baseCurrencyValue: Emitter<Double> = .init()
     internal let currentRates: Signal<[CurrencyRate]>
     internal let tableDataSource: TableViewDataSource<Currency>
-        = .init(elementMatch: { $0.symbol == $1.symbol }) { model, _ in
-            return model.cellView
-        }
     private let updatesTimer: Signal<Void>
     private let initialLoadPromise: Promise<Void> = .init()
 
-    internal init(updatesTimer: Signal<Void> = TimedEmitter(interval: 1)) {
+    public init(updatesTimer: Signal<Void> = TimedEmitter(interval: 1)) {
         self.updatesTimer = updatesTimer
+        self.tableDataSource = .init(updatesWorker: Current.backgroundWorker, elementMatch: { $0.symbol == $1.symbol }) { model, _ in
+            model.cellView
+        }
         self.currentRates =
             baseCurrencySymbol
             .filterDuplicates()
@@ -32,17 +32,17 @@ internal final class DataFlowController {
             .flatMapFuture { (currencySymbol) -> Future<CurrencyData> in
                 Current.api.getRates(currencySymbol)
             }
-            .map({ data in
+            .map { data in
                 var rates =
                     data.rates
                     .map { key, value in
-                    CurrencyRate(symbol: key, value: value)
-                }
+                        CurrencyRate(symbol: key, value: value)
+                    }
                 if !rates.contains { $0.symbol == data.base } {
                     rates.insert(CurrencyRate(symbol: data.base, value: 1), at: 0)
                 } else { /* continue */ }
                 return rates
-            })
+            }
 
         baseCurrencySymbol
             .filterDuplicates()
@@ -59,14 +59,14 @@ internal final class DataFlowController {
                                 let cell = Currency(symbol: rate.symbol)
 
                                 cell.signalIn.baseValue =
-                                    cell.signalOut.active.flatMapLatest({ active in
+                                    cell.signalOut.active.flatMapLatest { active in
                                         guard !active else {
                                             return .never
                                         }
                                         return self.baseCurrencyValue
-                                    })
+                                    }
                                 cell.signalIn.rate =
-                                    cell.signalOut.active.flatMapLatest({ active in
+                                    cell.signalOut.active.flatMapLatest { active in
                                         guard !active else {
                                             return .never
                                         }
@@ -75,7 +75,7 @@ internal final class DataFlowController {
                                             .map { $0.first { $0.symbol == rate.symbol } }
                                             .filter { $0 != nil }
                                             .map { $0!.value }
-                                    })
+                                    }
                                 cell.signalOut.activated
                                     .values { value in
                                         guard let index = self.tableDataSource.model[0].firstIndex(where: { $0.symbol == rate.symbol }) else { return }

@@ -7,25 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		404BA68F21F5CDAE00E49EDF /* CurrencyEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404BA68E21F5CDAE00E49EDF /* CurrencyEndpoint.swift */; };
-		404BA69121F5CDBA00E49EDF /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404BA69021F5CDBA00E49EDF /* Environment.swift */; };
-		404BA69321F5D26300E49EDF /* DataFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404BA69221F5D26300E49EDF /* DataFlowController.swift */; };
-		404BA69521F6383000E49EDF /* CurrencyCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404BA69421F6383000E49EDF /* CurrencyCellView.swift */; };
-		4051E94121F33C2A00BF4D62 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4051E94021F33C2A00BF4D62 /* Currency.swift */; };
+		401AC26C21FC6EB900C1D632 /* Revo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 401AC26321FC6EB900C1D632 /* Revo.framework */; };
+		401AC27321FC6EB900C1D632 /* RevoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401AC27221FC6EB900C1D632 /* RevoTests.swift */; };
+		401AC27521FC6EB900C1D632 /* Revo.h in Headers */ = {isa = PBXBuildFile; fileRef = 401AC26521FC6EB900C1D632 /* Revo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		401AC27821FC6EB900C1D632 /* Revo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 401AC26321FC6EB900C1D632 /* Revo.framework */; };
+		401AC27921FC6EB900C1D632 /* Revo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 401AC26321FC6EB900C1D632 /* Revo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		401AC28021FC6ECD00C1D632 /* CurrencyCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404BA69421F6383000E49EDF /* CurrencyCellView.swift */; };
+		401AC28121FC6ECD00C1D632 /* CurrencyEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404BA68E21F5CDAE00E49EDF /* CurrencyEndpoint.swift */; };
+		401AC28221FC6ECD00C1D632 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404BA69021F5CDBA00E49EDF /* Environment.swift */; };
+		401AC28321FC6ECD00C1D632 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4051E94021F33C2A00BF4D62 /* Currency.swift */; };
+		401AC28421FC6ECD00C1D632 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406F4A4821F32026005B43B2 /* ViewController.swift */; };
+		401AC28521FC6ECD00C1D632 /* DataFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404BA69221F5D26300E49EDF /* DataFlowController.swift */; };
+		401AC28621FC6F1D00C1D632 /* Coconut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F204DE21F7B3390040CB8F /* Coconut.framework */; };
+		401AC28721FC6F1D00C1D632 /* Futura.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405B4C2B21F7B46300D94156 /* Futura.framework */; };
 		405B4C3821F7B48C00D94156 /* Futura.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405B4C2B21F7B46300D94156 /* Futura.framework */; };
 		405B4C3921F7B48C00D94156 /* Futura.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 405B4C2B21F7B46300D94156 /* Futura.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		406F4A4721F32026005B43B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406F4A4621F32026005B43B2 /* AppDelegate.swift */; };
-		406F4A4921F32026005B43B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406F4A4821F32026005B43B2 /* ViewController.swift */; };
 		406F4A4E21F32027005B43B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406F4A4D21F32027005B43B2 /* Assets.xcassets */; };
 		406F4A5121F32027005B43B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406F4A4F21F32027005B43B2 /* LaunchScreen.storyboard */; };
-		406F4A5C21F32027005B43B2 /* RevolutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406F4A5B21F32027005B43B2 /* RevolutTests.swift */; };
 		40F204E521F7B33F0040CB8F /* Coconut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F204DE21F7B3390040CB8F /* Coconut.framework */; };
 		40F204E621F7B33F0040CB8F /* Coconut.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 40F204DE21F7B3390040CB8F /* Coconut.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		40F204EB21F7B3510040CB8F /* SnapshotTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F204D121F7B3390040CB8F /* SnapshotTesting.framework */; };
-		40F204F221F7B3620040CB8F /* Coconut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F204DE21F7B3390040CB8F /* Coconut.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		401AC26D21FC6EB900C1D632 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 406F4A3B21F32026005B43B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 401AC26221FC6EB900C1D632;
+			remoteInfo = Revo;
+		};
+		401AC27621FC6EB900C1D632 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 406F4A3B21F32026005B43B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 401AC26221FC6EB900C1D632;
+			remoteInfo = Revo;
+		};
+		401AC28821FC718400C1D632 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40F204C121F7B3380040CB8F /* SnapshotTesting.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = NT_E1FAA066576312BD4B5DB23882D1278B;
+			remoteInfo = SnapshotTesting_iOS;
+		};
 		405B4C2A21F7B46300D94156 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 405B4C2021F7B46300D94156 /* Futura.xcodeproj */;
@@ -53,13 +78,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = "Futura::Futura";
 			remoteInfo = Futura;
-		};
-		406F4A5821F32027005B43B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 406F4A3B21F32026005B43B2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 406F4A4221F32026005B43B2;
-			remoteInfo = Revolut;
 		};
 		40F204CA21F7B3390040CB8F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -117,20 +135,6 @@
 			remoteGlobalIDString = "Coconut::Coconut";
 			remoteInfo = Coconut;
 		};
-		40F204EC21F7B35B0040CB8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 40F204D621F7B3390040CB8F /* Coconut.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = "Coconut::Coconut";
-			remoteInfo = Coconut;
-		};
-		40F204F021F7B35B0040CB8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 40F204C121F7B3380040CB8F /* SnapshotTesting.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = NT_E1FAA066576312BD4B5DB23882D1278B;
-			remoteInfo = SnapshotTesting_iOS;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -141,6 +145,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				40F204E621F7B33F0040CB8F /* Coconut.framework in Embed Frameworks */,
+				401AC27921FC6EB900C1D632 /* Revo.framework in Embed Frameworks */,
 				405B4C3921F7B48C00D94156 /* Futura.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -149,6 +154,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		401AC26321FC6EB900C1D632 /* Revo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Revo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		401AC26521FC6EB900C1D632 /* Revo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Revo.h; sourceTree = "<group>"; };
+		401AC26621FC6EB900C1D632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		401AC26B21FC6EB900C1D632 /* RevoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		401AC27221FC6EB900C1D632 /* RevoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevoTests.swift; sourceTree = "<group>"; };
+		401AC27421FC6EB900C1D632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		404BA68E21F5CDAE00E49EDF /* CurrencyEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyEndpoint.swift; sourceTree = "<group>"; };
 		404BA69021F5CDBA00E49EDF /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		404BA69221F5D26300E49EDF /* DataFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFlowController.swift; sourceTree = "<group>"; };
@@ -161,35 +172,65 @@
 		406F4A4D21F32027005B43B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		406F4A5021F32027005B43B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		406F4A5221F32027005B43B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		406F4A5721F32027005B43B2 /* RevolutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevolutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		406F4A5B21F32027005B43B2 /* RevolutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevolutTests.swift; sourceTree = "<group>"; };
-		406F4A5D21F32027005B43B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40F204C121F7B3380040CB8F /* SnapshotTesting.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnapshotTesting.xcodeproj; path = "swift-snapshot-testing/SnapshotTesting.xcodeproj"; sourceTree = "<group>"; };
 		40F204D621F7B3390040CB8F /* Coconut.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Coconut.xcodeproj; path = coconut/Coconut.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		401AC26021FC6EB900C1D632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401AC28621FC6F1D00C1D632 /* Coconut.framework in Frameworks */,
+				401AC28721FC6F1D00C1D632 /* Futura.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		401AC26821FC6EB900C1D632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401AC26C21FC6EB900C1D632 /* Revo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		406F4A4021F32026005B43B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				40F204E521F7B33F0040CB8F /* Coconut.framework in Frameworks */,
+				401AC27821FC6EB900C1D632 /* Revo.framework in Frameworks */,
 				405B4C3821F7B48C00D94156 /* Futura.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		406F4A5421F32027005B43B2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				40F204F221F7B3620040CB8F /* Coconut.framework in Frameworks */,
-				40F204EB21F7B3510040CB8F /* SnapshotTesting.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		401AC26421FC6EB900C1D632 /* Revo */ = {
+			isa = PBXGroup;
+			children = (
+				406F4A4821F32026005B43B2 /* ViewController.swift */,
+				404BA69421F6383000E49EDF /* CurrencyCellView.swift */,
+				4051E94021F33C2A00BF4D62 /* Currency.swift */,
+				404BA69221F5D26300E49EDF /* DataFlowController.swift */,
+				404BA68E21F5CDAE00E49EDF /* CurrencyEndpoint.swift */,
+				404BA69021F5CDBA00E49EDF /* Environment.swift */,
+				401AC26521FC6EB900C1D632 /* Revo.h */,
+				401AC26621FC6EB900C1D632 /* Info.plist */,
+			);
+			path = Revo;
+			sourceTree = "<group>";
+		};
+		401AC27121FC6EB900C1D632 /* RevoTests */ = {
+			isa = PBXGroup;
+			children = (
+				401AC27221FC6EB900C1D632 /* RevoTests.swift */,
+				401AC27421FC6EB900C1D632 /* Info.plist */,
+			);
+			path = RevoTests;
+			sourceTree = "<group>";
+		};
 		405B4C2121F7B46300D94156 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,7 +248,8 @@
 				40F204D621F7B3390040CB8F /* Coconut.xcodeproj */,
 				40F204C121F7B3380040CB8F /* SnapshotTesting.xcodeproj */,
 				406F4A4521F32026005B43B2 /* Revolut */,
-				406F4A5A21F32027005B43B2 /* RevolutTests */,
+				401AC26421FC6EB900C1D632 /* Revo */,
+				401AC27121FC6EB900C1D632 /* RevoTests */,
 				406F4A4421F32026005B43B2 /* Products */,
 				40F204EA21F7B3510040CB8F /* Frameworks */,
 			);
@@ -217,7 +259,8 @@
 			isa = PBXGroup;
 			children = (
 				406F4A4321F32026005B43B2 /* Revolut.app */,
-				406F4A5721F32027005B43B2 /* RevolutTests.xctest */,
+				401AC26321FC6EB900C1D632 /* Revo.framework */,
+				401AC26B21FC6EB900C1D632 /* RevoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -226,26 +269,11 @@
 			isa = PBXGroup;
 			children = (
 				406F4A4621F32026005B43B2 /* AppDelegate.swift */,
-				406F4A4821F32026005B43B2 /* ViewController.swift */,
-				404BA69421F6383000E49EDF /* CurrencyCellView.swift */,
-				4051E94021F33C2A00BF4D62 /* Currency.swift */,
-				404BA69221F5D26300E49EDF /* DataFlowController.swift */,
-				404BA68E21F5CDAE00E49EDF /* CurrencyEndpoint.swift */,
-				404BA69021F5CDBA00E49EDF /* Environment.swift */,
 				406F4A4D21F32027005B43B2 /* Assets.xcassets */,
 				406F4A4F21F32027005B43B2 /* LaunchScreen.storyboard */,
 				406F4A5221F32027005B43B2 /* Info.plist */,
 			);
 			path = Revolut;
-			sourceTree = "<group>";
-		};
-		406F4A5A21F32027005B43B2 /* RevolutTests */ = {
-			isa = PBXGroup;
-			children = (
-				406F4A5B21F32027005B43B2 /* RevolutTests.swift */,
-				406F4A5D21F32027005B43B2 /* Info.plist */,
-			);
-			path = RevolutTests;
 			sourceTree = "<group>";
 		};
 		40F204C221F7B3380040CB8F /* Products */ = {
@@ -278,7 +306,55 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		401AC25E21FC6EB900C1D632 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401AC27521FC6EB900C1D632 /* Revo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		401AC26221FC6EB900C1D632 /* Revo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 401AC27A21FC6EBA00C1D632 /* Build configuration list for PBXNativeTarget "Revo" */;
+			buildPhases = (
+				401AC25E21FC6EB900C1D632 /* Headers */,
+				401AC25F21FC6EB900C1D632 /* Sources */,
+				401AC26021FC6EB900C1D632 /* Frameworks */,
+				401AC26121FC6EB900C1D632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Revo;
+			productName = Revo;
+			productReference = 401AC26321FC6EB900C1D632 /* Revo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		401AC26A21FC6EB900C1D632 /* RevoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 401AC27D21FC6EBA00C1D632 /* Build configuration list for PBXNativeTarget "RevoTests" */;
+			buildPhases = (
+				401AC26721FC6EB900C1D632 /* Sources */,
+				401AC26821FC6EB900C1D632 /* Frameworks */,
+				401AC26921FC6EB900C1D632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				401AC28921FC718400C1D632 /* PBXTargetDependency */,
+				401AC26E21FC6EB900C1D632 /* PBXTargetDependency */,
+			);
+			name = RevoTests;
+			productName = RevoTests;
+			productReference = 401AC26B21FC6EB900C1D632 /* RevoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		406F4A4221F32026005B43B2 /* Revolut */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 406F4A6021F32027005B43B2 /* Build configuration list for PBXNativeTarget "Revolut" */;
@@ -293,31 +369,12 @@
 			dependencies = (
 				40F204E821F7B33F0040CB8F /* PBXTargetDependency */,
 				405B4C3B21F7B48C00D94156 /* PBXTargetDependency */,
+				401AC27721FC6EB900C1D632 /* PBXTargetDependency */,
 			);
 			name = Revolut;
 			productName = Revolut;
 			productReference = 406F4A4321F32026005B43B2 /* Revolut.app */;
 			productType = "com.apple.product-type.application";
-		};
-		406F4A5621F32027005B43B2 /* RevolutTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 406F4A6321F32027005B43B2 /* Build configuration list for PBXNativeTarget "RevolutTests" */;
-			buildPhases = (
-				406F4A5321F32027005B43B2 /* Sources */,
-				406F4A5421F32027005B43B2 /* Frameworks */,
-				406F4A5521F32027005B43B2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				40F204ED21F7B35B0040CB8F /* PBXTargetDependency */,
-				40F204F121F7B35B0040CB8F /* PBXTargetDependency */,
-				406F4A5921F32027005B43B2 /* PBXTargetDependency */,
-			);
-			name = RevolutTests;
-			productName = RevolutTests;
-			productReference = 406F4A5721F32027005B43B2 /* RevolutTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -329,12 +386,14 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Kacper Kaliński";
 				TargetAttributes = {
-					406F4A4221F32026005B43B2 = {
+					401AC26221FC6EB900C1D632 = {
 						CreatedOnToolsVersion = 10.1;
 					};
-					406F4A5621F32027005B43B2 = {
+					401AC26A21FC6EB900C1D632 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 406F4A4221F32026005B43B2;
+					};
+					406F4A4221F32026005B43B2 = {
+						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
@@ -366,7 +425,8 @@
 			projectRoot = "";
 			targets = (
 				406F4A4221F32026005B43B2 /* Revolut */,
-				406F4A5621F32027005B43B2 /* RevolutTests */,
+				401AC26221FC6EB900C1D632 /* Revo */,
+				401AC26A21FC6EB900C1D632 /* RevoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -445,6 +505,20 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		401AC26121FC6EB900C1D632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		401AC26921FC6EB900C1D632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		406F4A4121F32026005B43B2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -454,65 +528,65 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		406F4A5521F32027005B43B2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		401AC25F21FC6EB900C1D632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401AC28421FC6ECD00C1D632 /* ViewController.swift in Sources */,
+				401AC28521FC6ECD00C1D632 /* DataFlowController.swift in Sources */,
+				401AC28321FC6ECD00C1D632 /* Currency.swift in Sources */,
+				401AC28021FC6ECD00C1D632 /* CurrencyCellView.swift in Sources */,
+				401AC28221FC6ECD00C1D632 /* Environment.swift in Sources */,
+				401AC28121FC6ECD00C1D632 /* CurrencyEndpoint.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		401AC26721FC6EB900C1D632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401AC27321FC6EB900C1D632 /* RevoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		406F4A3F21F32026005B43B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				406F4A4921F32026005B43B2 /* ViewController.swift in Sources */,
-				404BA69321F5D26300E49EDF /* DataFlowController.swift in Sources */,
-				404BA68F21F5CDAE00E49EDF /* CurrencyEndpoint.swift in Sources */,
-				404BA69521F6383000E49EDF /* CurrencyCellView.swift in Sources */,
 				406F4A4721F32026005B43B2 /* AppDelegate.swift in Sources */,
-				4051E94121F33C2A00BF4D62 /* Currency.swift in Sources */,
-				404BA69121F5CDBA00E49EDF /* Environment.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		406F4A5321F32027005B43B2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				406F4A5C21F32027005B43B2 /* RevolutTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		401AC26E21FC6EB900C1D632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 401AC26221FC6EB900C1D632 /* Revo */;
+			targetProxy = 401AC26D21FC6EB900C1D632 /* PBXContainerItemProxy */;
+		};
+		401AC27721FC6EB900C1D632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 401AC26221FC6EB900C1D632 /* Revo */;
+			targetProxy = 401AC27621FC6EB900C1D632 /* PBXContainerItemProxy */;
+		};
+		401AC28921FC718400C1D632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapshotTesting_iOS;
+			targetProxy = 401AC28821FC718400C1D632 /* PBXContainerItemProxy */;
+		};
 		405B4C3B21F7B48C00D94156 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Futura;
 			targetProxy = 405B4C3A21F7B48C00D94156 /* PBXContainerItemProxy */;
 		};
-		406F4A5921F32027005B43B2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 406F4A4221F32026005B43B2 /* Revolut */;
-			targetProxy = 406F4A5821F32027005B43B2 /* PBXContainerItemProxy */;
-		};
 		40F204E821F7B33F0040CB8F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Coconut;
 			targetProxy = 40F204E721F7B33F0040CB8F /* PBXContainerItemProxy */;
-		};
-		40F204ED21F7B35B0040CB8F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Coconut;
-			targetProxy = 40F204EC21F7B35B0040CB8F /* PBXContainerItemProxy */;
-		};
-		40F204F121F7B35B0040CB8F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SnapshotTesting_iOS;
-			targetProxy = 40F204F021F7B35B0040CB8F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -528,6 +602,98 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		401AC27B21FC6EBA00C1D632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = W5K9758J57;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Revo/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pl.kaqu.Revo;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		401AC27C21FC6EBA00C1D632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = W5K9758J57;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Revo/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pl.kaqu.Revo;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		401AC27E21FC6EBA00C1D632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RevoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pl.kaqu.RevoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		401AC27F21FC6EBA00C1D632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RevoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pl.kaqu.RevoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		406F4A5E21F32027005B43B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -690,49 +856,27 @@
 			};
 			name = Release;
 		};
-		406F4A6421F32027005B43B2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RevolutTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = pl.kaqu.RevolutTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Revolut.app/Revolut";
-			};
-			name = Debug;
-		};
-		406F4A6521F32027005B43B2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RevolutTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = pl.kaqu.RevolutTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Revolut.app/Revolut";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		401AC27A21FC6EBA00C1D632 /* Build configuration list for PBXNativeTarget "Revo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				401AC27B21FC6EBA00C1D632 /* Debug */,
+				401AC27C21FC6EBA00C1D632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		401AC27D21FC6EBA00C1D632 /* Build configuration list for PBXNativeTarget "RevoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				401AC27E21FC6EBA00C1D632 /* Debug */,
+				401AC27F21FC6EBA00C1D632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		406F4A3E21F32026005B43B2 /* Build configuration list for PBXProject "Revolut" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -747,15 +891,6 @@
 			buildConfigurations = (
 				406F4A6121F32027005B43B2 /* Debug */,
 				406F4A6221F32027005B43B2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		406F4A6321F32027005B43B2 /* Build configuration list for PBXNativeTarget "RevolutTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				406F4A6421F32027005B43B2 /* Debug */,
-				406F4A6521F32027005B43B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

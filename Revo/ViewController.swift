@@ -9,10 +9,18 @@
 import Coconut
 import UIKit
 
-internal class ViewController: UIViewController {
-    private let dataFlowController: DataFlowController = .init()
-
-    override func loadView() {
+public class ViewController: UIViewController {
+    private let dataFlowController: DataFlowController
+    
+    public init(dataFlowController: DataFlowController = .init()) {
+        self.dataFlowController = dataFlowController
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    @available(*, unavailable)
+    required init?(coder aDecoder: NSCoder) { fatalError() }
+    
+    override public func loadView() {
         let tableView: UITableView = .init()
         tableView.allowsSelection = false
         dataFlowController.tableDataSource.setup(tableView: tableView)

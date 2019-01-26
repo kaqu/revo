@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Revo
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

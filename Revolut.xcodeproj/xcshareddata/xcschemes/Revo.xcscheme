@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "406F4A4221F32026005B43B2"
-               BuildableName = "Revolut.app"
-               BlueprintName = "Revolut"
+               BlueprintIdentifier = "401AC26221FC6EB900C1D632"
+               BuildableName = "Revo.framework"
+               BlueprintName = "Revo"
                ReferencedContainer = "container:Revolut.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "406F4A4221F32026005B43B2"
-            BuildableName = "Revolut.app"
-            BlueprintName = "Revolut"
+            BlueprintIdentifier = "401AC26221FC6EB900C1D632"
+            BuildableName = "Revo.framework"
+            BlueprintName = "Revo"
             ReferencedContainer = "container:Revolut.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -61,16 +61,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "406F4A4221F32026005B43B2"
-            BuildableName = "Revolut.app"
-            BlueprintName = "Revolut"
+            BlueprintIdentifier = "401AC26221FC6EB900C1D632"
+            BuildableName = "Revo.framework"
+            BlueprintName = "Revo"
             ReferencedContainer = "container:Revolut.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -80,16 +79,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "406F4A4221F32026005B43B2"
-            BuildableName = "Revolut.app"
-            BlueprintName = "Revolut"
+            BlueprintIdentifier = "401AC26221FC6EB900C1D632"
+            BuildableName = "Revo.framework"
+            BlueprintName = "Revo"
             ReferencedContainer = "container:Revolut.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
