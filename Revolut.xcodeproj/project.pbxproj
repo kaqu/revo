@@ -19,9 +19,6 @@
 		401AC28421FC6ECD00C1D632 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406F4A4821F32026005B43B2 /* ViewController.swift */; };
 		401AC28521FC6ECD00C1D632 /* DataFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404BA69221F5D26300E49EDF /* DataFlowController.swift */; };
 		401AC28621FC6F1D00C1D632 /* Coconut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F204DE21F7B3390040CB8F /* Coconut.framework */; };
-		401AC28721FC6F1D00C1D632 /* Futura.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405B4C2B21F7B46300D94156 /* Futura.framework */; };
-		405B4C3821F7B48C00D94156 /* Futura.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405B4C2B21F7B46300D94156 /* Futura.framework */; };
-		405B4C3921F7B48C00D94156 /* Futura.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 405B4C2B21F7B46300D94156 /* Futura.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		406F4A4721F32026005B43B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406F4A4621F32026005B43B2 /* AppDelegate.swift */; };
 		406F4A4E21F32027005B43B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406F4A4D21F32027005B43B2 /* Assets.xcassets */; };
 		406F4A5121F32027005B43B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406F4A4F21F32027005B43B2 /* LaunchScreen.storyboard */; };
@@ -51,32 +48,25 @@
 			remoteGlobalIDString = NT_E1FAA066576312BD4B5DB23882D1278B;
 			remoteInfo = SnapshotTesting_iOS;
 		};
-		405B4C2A21F7B46300D94156 /* PBXContainerItemProxy */ = {
+		4029078A21FC7C2A003655F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 405B4C2021F7B46300D94156 /* Futura.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = "Futura::Futura::Product";
-			remoteInfo = Futura;
+			containerPortal = 40F204D621F7B3390040CB8F /* Coconut.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "Coconut::Coconut";
+			remoteInfo = Coconut;
 		};
-		405B4C2C21F7B46300D94156 /* PBXContainerItemProxy */ = {
+		4029078C21FC7C2A003655F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 405B4C2021F7B46300D94156 /* Futura.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = "Futura::FuturaPerformanceTests::Product";
-			remoteInfo = FuturaPerformanceTests;
-		};
-		405B4C2E21F7B46300D94156 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 405B4C2021F7B46300D94156 /* Futura.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = "Futura::FuturaTests::Product";
-			remoteInfo = FuturaTests;
-		};
-		405B4C3A21F7B48C00D94156 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 405B4C2021F7B46300D94156 /* Futura.xcodeproj */;
+			containerPortal = 40F204D621F7B3390040CB8F /* Coconut.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = "Futura::Futura";
+			remoteInfo = Futura;
+		};
+		4029079121FC7C2A003655F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40F204D621F7B3390040CB8F /* Coconut.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "Futura::Futura::Product";
 			remoteInfo = Futura;
 		};
 		40F204CA21F7B3390040CB8F /* PBXContainerItemProxy */ = {
@@ -128,13 +118,6 @@
 			remoteGlobalIDString = "Coconut::Coconut::Product";
 			remoteInfo = Coconut;
 		};
-		40F204E721F7B33F0040CB8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 40F204D621F7B3390040CB8F /* Coconut.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = "Coconut::Coconut";
-			remoteInfo = Coconut;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -146,7 +129,6 @@
 			files = (
 				40F204E621F7B33F0040CB8F /* Coconut.framework in Embed Frameworks */,
 				401AC27921FC6EB900C1D632 /* Revo.framework in Embed Frameworks */,
-				405B4C3921F7B48C00D94156 /* Futura.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,7 +147,6 @@
 		404BA69221F5D26300E49EDF /* DataFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFlowController.swift; sourceTree = "<group>"; };
 		404BA69421F6383000E49EDF /* CurrencyCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCellView.swift; sourceTree = "<group>"; };
 		4051E94021F33C2A00BF4D62 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
-		405B4C2021F7B46300D94156 /* Futura.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Futura.xcodeproj; path = futura/Futura.xcodeproj; sourceTree = "<group>"; };
 		406F4A4321F32026005B43B2 /* Revolut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Revolut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		406F4A4621F32026005B43B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		406F4A4821F32026005B43B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -182,7 +163,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				401AC28621FC6F1D00C1D632 /* Coconut.framework in Frameworks */,
-				401AC28721FC6F1D00C1D632 /* Futura.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +180,6 @@
 			files = (
 				40F204E521F7B33F0040CB8F /* Coconut.framework in Frameworks */,
 				401AC27821FC6EB900C1D632 /* Revo.framework in Frameworks */,
-				405B4C3821F7B48C00D94156 /* Futura.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,20 +210,9 @@
 			path = RevoTests;
 			sourceTree = "<group>";
 		};
-		405B4C2121F7B46300D94156 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				405B4C2B21F7B46300D94156 /* Futura.framework */,
-				405B4C2D21F7B46300D94156 /* FuturaPerformanceTests.xctest */,
-				405B4C2F21F7B46300D94156 /* FuturaTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		406F4A3A21F32026005B43B2 = {
 			isa = PBXGroup;
 			children = (
-				405B4C2021F7B46300D94156 /* Futura.xcodeproj */,
 				40F204D621F7B3390040CB8F /* Coconut.xcodeproj */,
 				40F204C121F7B3380040CB8F /* SnapshotTesting.xcodeproj */,
 				406F4A4521F32026005B43B2 /* Revolut */,
@@ -293,6 +261,7 @@
 			isa = PBXGroup;
 			children = (
 				40F204DE21F7B3390040CB8F /* Coconut.framework */,
+				4029079221FC7C2A003655F3 /* Futura.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -330,6 +299,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				4029078B21FC7C2A003655F3 /* PBXTargetDependency */,
+				4029078D21FC7C2A003655F3 /* PBXTargetDependency */,
 			);
 			name = Revo;
 			productName = Revo;
@@ -367,8 +338,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				40F204E821F7B33F0040CB8F /* PBXTargetDependency */,
-				405B4C3B21F7B48C00D94156 /* PBXTargetDependency */,
 				401AC27721FC6EB900C1D632 /* PBXTargetDependency */,
 			);
 			name = Revolut;
@@ -414,10 +383,6 @@
 					ProjectRef = 40F204D621F7B3390040CB8F /* Coconut.xcodeproj */;
 				},
 				{
-					ProductGroup = 405B4C2121F7B46300D94156 /* Products */;
-					ProjectRef = 405B4C2021F7B46300D94156 /* Futura.xcodeproj */;
-				},
-				{
 					ProductGroup = 40F204C221F7B3380040CB8F /* Products */;
 					ProjectRef = 40F204C121F7B3380040CB8F /* SnapshotTesting.xcodeproj */;
 				},
@@ -432,25 +397,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		405B4C2B21F7B46300D94156 /* Futura.framework */ = {
+		4029079221FC7C2A003655F3 /* Futura.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Futura.framework;
-			remoteRef = 405B4C2A21F7B46300D94156 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		405B4C2D21F7B46300D94156 /* FuturaPerformanceTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = file;
-			path = FuturaPerformanceTests.xctest;
-			remoteRef = 405B4C2C21F7B46300D94156 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		405B4C2F21F7B46300D94156 /* FuturaTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = file;
-			path = FuturaTests.xctest;
-			remoteRef = 405B4C2E21F7B46300D94156 /* PBXContainerItemProxy */;
+			remoteRef = 4029079121FC7C2A003655F3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		40F204CB21F7B3390040CB8F /* SnapshotTestingTests.xctest */ = {
@@ -578,15 +529,15 @@
 			name = SnapshotTesting_iOS;
 			targetProxy = 401AC28821FC718400C1D632 /* PBXContainerItemProxy */;
 		};
-		405B4C3B21F7B48C00D94156 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Futura;
-			targetProxy = 405B4C3A21F7B48C00D94156 /* PBXContainerItemProxy */;
-		};
-		40F204E821F7B33F0040CB8F /* PBXTargetDependency */ = {
+		4029078B21FC7C2A003655F3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Coconut;
-			targetProxy = 40F204E721F7B33F0040CB8F /* PBXContainerItemProxy */;
+			targetProxy = 4029078A21FC7C2A003655F3 /* PBXContainerItemProxy */;
+		};
+		4029078D21FC7C2A003655F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Futura;
+			targetProxy = 4029078C21FC7C2A003655F3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

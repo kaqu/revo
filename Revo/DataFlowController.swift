@@ -20,7 +20,7 @@ public final class DataFlowController {
 
     public init(updatesTimer: Signal<Void> = TimedEmitter(interval: 1)) {
         self.updatesTimer = updatesTimer
-        self.tableDataSource = .init(updatesWorker: Current.backgroundWorker, elementMatch: { $0.symbol == $1.symbol }) { model, _ in
+        self.tableDataSource = .init(diffWorker: Current.backgroundWorker, elementMatch: { $0.symbol == $1.symbol }) { model, _ in
             model.cellView
         }
         self.currentRates =
